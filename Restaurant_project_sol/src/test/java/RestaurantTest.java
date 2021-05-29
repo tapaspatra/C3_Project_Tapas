@@ -72,7 +72,6 @@ public class RestaurantTest {
     	List<String> selectedItems = new ArrayList<String>();
     	
     	int price = restaurant.calulatePriceBySelectedItems(selectedItems);
-    	
     	assertEquals(0, price);
     }
 }
