@@ -62,7 +62,6 @@ public class RestaurantTest {
     	selectedItems.add("Vegetable lasagne");
     	
     	int price = restaurant.calulatePriceBySelectedItems(selectedItems);
-    	
     	assertEquals(388, price);
     }
     

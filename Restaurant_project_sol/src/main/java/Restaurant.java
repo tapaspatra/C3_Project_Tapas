@@ -97,10 +97,10 @@ public class Restaurant {
 
 		List<Item> matched = currentMenu.stream().filter(a -> selectedItems.contains(a.getName()))
 				.collect(Collectors.toList());
+		
 		for (Item itemData : matched) {
 			totalPrice = totalPrice + itemData.getPrice();
 		}
-
 		return totalPrice;
 	}
 
